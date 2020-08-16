@@ -10,7 +10,7 @@ div.cool-border {
   background-position: 0 0;
 }
 
-.cool-border:after {
+.cool-border::after {
   content: "";
   position: absolute;
 }
@@ -21,7 +21,7 @@ div.cool-border {
   background-size: 100% 1px;
 }
 
-.cool-border-horizontal-bottom-left-orange:after {
+.cool-border-horizontal-bottom-left-orange::after {
   bottom: 0;
   left: 0;
   height: 1px;
@@ -35,7 +35,7 @@ div.cool-border {
   background-size: 100% 1px;
 }
 
-.cool-border-horizontal-bottom-right-orange:after {
+.cool-border-horizontal-bottom-right-orange::after {
   bottom: 0;
   right: 0;
   height: 1px;
@@ -50,7 +50,7 @@ div.cool-border {
   background-position: 100% 100%;
 }
 
-.cool-border-horizontal-top-right-orange:after {
+.cool-border-horizontal-top-right-orange::after {
   top: 0;
   right: 0;
   height: 1px;
@@ -65,7 +65,7 @@ div.cool-border {
   background-position: 0 100%;
 }
 
-.cool-border-horizontal-top-left-orange:after {
+.cool-border-horizontal-top-left-orange::after {
   top: 0;
   left: 0;
   height: 1px;
@@ -80,7 +80,7 @@ div.cool-border {
   background-position: 100% 100%;
 }
 
-.cool-border-vertical-bottom-left-orange:after {
+.cool-border-vertical-bottom-left-orange::after {
   bottom: 0;
   height: 25%;
   width: 1px;
@@ -94,7 +94,7 @@ div.cool-border {
   background-position: 0 100%;
 }
 
-.cool-border-vertical-bottom-right-orange:after {
+.cool-border-vertical-bottom-right-orange::after {
   bottom: 0;
   right: 0;
   height: 25%;
@@ -109,7 +109,7 @@ div.cool-border {
   background-position: 100% 0;
 }
 
-.cool-border-vertical-top-left-orange:after {
+.cool-border-vertical-top-left-orange::after {
   top: 0;
   height: 25%;
   width: 1px;
@@ -123,7 +123,7 @@ div.cool-border {
   background-position: 0 0;
 }
 
-.cool-border-vertical-top-right-orange:after {
+.cool-border-vertical-top-right-orange::after {
   top: 0;
   right: 0;
   height: 25%;
@@ -135,7 +135,7 @@ div.cool-border {
   background-size: 100% 1px;
 }
 
-.cool-boder-corner:after {
+.cool-boder-corner::after {
   height: 100%;
   width: 1px;
 }
@@ -145,7 +145,7 @@ div.cool-border {
   background-position: 0 0;
 }
 
-.cool-border-top-left-corner:after {
+.cool-border-top-left-corner::after {
   background: linear-gradient(#ff8a00,#fff);
 }
 
@@ -154,7 +154,7 @@ div.cool-border {
   background-position: 0 0;
 }
 
-.cool-border-top-right-corner:after {
+.cool-border-top-right-corner::after {
   right: 0;
   background: linear-gradient(#ff8a00,#fff);
 }
@@ -164,7 +164,7 @@ div.cool-border {
   background-position: 0 100%;
 }
 
-.cool-border-bottom-left-corner:after {
+.cool-border-bottom-left-corner::after {
   background: linear-gradient(#fff,#ff8a00);
 }
 
@@ -173,7 +173,7 @@ div.cool-border {
   background-position: 0 100%;
 }
 
-.cool-border-bottom-right-corner:after {
+.cool-border-bottom-right-corner::after {
   right: 0;
   background: linear-gradient(#fff,#ff8a00);
 }
