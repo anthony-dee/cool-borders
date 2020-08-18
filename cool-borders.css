@@ -131,49 +131,52 @@ div.cool-border {
   background: linear-gradient(#fff,#ff8a00);
 }
 
-.cool-boder-corner {
-  background-size: 100% 1px;
-}
-
-.cool-boder-corner::after {
-  height: 100%;
-  width: 1px;
-}
-
 .cool-border-top-left-corner {
   background-image: linear-gradient(90deg,#ff8a00,#fff);
   background-position: 0 0;
+  background-size: 100% 1px;
 }
 
 .cool-border-top-left-corner::after {
   background: linear-gradient(#ff8a00,#fff);
+  height: 100%;
+  width: 1px;
 }
 
 .cool-border-top-right-corner {
   background-image: linear-gradient(270deg,#ff8a00,#fff);
   background-position: 0 0;
+  background-size: 100% 1px;
 }
 
 .cool-border-top-right-corner::after {
   right: 0;
   background: linear-gradient(#ff8a00,#fff);
+  height: 100%;
+  width: 1px;
 }
 
 .cool-border-bottom-right-corner {
   background-image: linear-gradient(270deg,#ff8a00,#fff);
   background-position: 0 100%;
+  background-size: 100% 1px;
 }
 
 .cool-border-bottom-right-corner::after {
   right: 0;
   background: linear-gradient(#fff,#ff8a00);
+  height: 100%;
+  width: 1px;
 }
 
 .cool-border-bottom-left-corner {
   background-image: linear-gradient(90deg,#ff8a00,#fff);
   background-position: 0 100%;
+  background-size: 100% 1px;
 }
 
 .cool-border-bottom-left-corner::after {
   background: linear-gradient(#fff,#ff8a00);
+  height: 100%;
+  width: 1px;
 }
