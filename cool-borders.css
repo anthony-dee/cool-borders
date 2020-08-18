@@ -15,13 +15,13 @@ div.cool-border {
   position: absolute;
 }
 
-.cool-border-horizontal-top-left-orange {
+.cool-border-h-top-left-orange {
   background-image: linear-gradient(90deg,#ff8a00,#fff);
   border-left: 1px solid #ff8a00;
   background-size: 100% 1px;
 }
 
-.cool-border-horizontal-top-left-orange::after {
+.cool-border-h-top-left-orange::after {
   bottom: 0;
   left: 0;
   height: 1px;
@@ -29,13 +29,13 @@ div.cool-border {
   background: linear-gradient(90deg,#ff8a00,#fff);
 }
 
-.cool-border-horizontal-top-right-orange {
+.cool-border-h-top-right-orange {
   background-image: linear-gradient(270deg,#ff8a00,#fff);
   border-right: 1px solid #ff8a00;
   background-size: 100% 1px;
 }
 
-.cool-border-horizontal-top-right-orange::after {
+.cool-border-h-top-right-orange::after {
   bottom: 0;
   right: 0;
   height: 1px;
@@ -43,14 +43,14 @@ div.cool-border {
   background: linear-gradient(270deg,#ff8a00,#fff);
 }
 
-.cool-border-horizontal-bottom-right-orange {
+.cool-border-h-bottom-right-orange {
   background-image: linear-gradient(270deg,#ff8a00,#fff);
   border-right: 1px solid #ff8a00;
   background-size: 100% 1px;
   background-position: 100% 100%;
 }
 
-.cool-border-horizontal-bottom-right-orange::after {
+.cool-border-h-bottom-right-orange::after {
   top: 0;
   right: 0;
   height: 1px;
@@ -58,14 +58,14 @@ div.cool-border {
   background: linear-gradient(270deg,#ff8a00,#fff);
 }
 
-.cool-border-horizontal-bottom-left-orange {
+.cool-border-h-bottom-left-orange {
   background-image: linear-gradient(90deg,#ff8a00,#fff);
   border-left: 1px solid #ff8a00;
   background-size: 100% 1px;
   background-position: 0 100%;
 }
 
-.cool-border-horizontal-bottom-left-orange::after {
+.cool-border-h-bottom-left-orange::after {
   top: 0;
   left: 0;
   height: 1px;
@@ -73,14 +73,14 @@ div.cool-border {
   background: linear-gradient(90deg,#ff8a00,#fff);
 }
 
-.cool-border-vertical-top-left-orange {
+.cool-border-v-top-left-orange {
   background-image: linear-gradient(#ff8a00,#fff);
   border-top: 1px solid #ff8a00;
   background-size: 1px 100%;
   background-position: 0 0;
 }
 
-.cool-border-vertical-top-left-orange::after {
+.cool-border-v-top-left-orange::after {
   top: 0;
   right: 0;
   height: 25%;
@@ -88,42 +88,42 @@ div.cool-border {
   background: linear-gradient(#ff8a00,#fff);
 }
 
-.cool-border-vertical-top-right-orange {
+.cool-border-v-top-right-orange {
   background-image: linear-gradient(#ff8a00,#fff);
   border-top: 1px solid #ff8a00;
   background-size: 1px 100%;
   background-position: 100% 0;
 }
 
-.cool-border-vertical-top-right-orange::after {
+.cool-border-v-top-right-orange::after {
   top: 0;
   height: 25%;
   width: 1px;
   background: linear-gradient(#ff8a00,#fff);
 }
 
-.cool-border-vertical-bottom-right-orange {
+.cool-border-v-bottom-right-orange {
   background-image: linear-gradient(#fff,#ff8a00);
   border-bottom: 1px solid #ff8a00;
   background-size: 1px 100%;
   background-position: 100% 100%;
 }
 
-.cool-border-vertical-bottom-right-orange::after {
+.cool-border-v-bottom-right-orange::after {
   bottom: 0;
   height: 25%;
   width: 1px;
   background: linear-gradient(#fff,#ff8a00);
 }
 
-.cool-border-vertical-bottom-left-orange {
+.cool-border-v-bottom-left-orange {
   background-image: linear-gradient(#fff,#ff8a00);
   border-bottom: 1px solid #ff8a00;
   background-size: 1px 100%;
   background-position: 0 100%;
 }
 
-.cool-border-vertical-bottom-left-orange::after {
+.cool-border-v-bottom-left-orange::after {
   bottom: 0;
   right: 0;
   height: 25%;
