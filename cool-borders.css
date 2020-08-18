@@ -73,6 +73,35 @@ div.cool-border {
   background: linear-gradient(90deg,#ff8a00,#fff);
 }
 
+.cool-border-vertical-top-left-orange {
+  background-image: linear-gradient(#ff8a00,#fff);
+  border-top: 1px solid #ff8a00;
+  background-size: 1px 100%;
+  background-position: 0 0;
+}
+
+.cool-border-vertical-top-left-orange::after {
+  top: 0;
+  right: 0;
+  height: 25%;
+  width: 1px;
+  background: linear-gradient(#ff8a00,#fff);
+}
+
+.cool-border-vertical-top-right-orange {
+  background-image: linear-gradient(#ff8a00,#fff);
+  border-top: 1px solid #ff8a00;
+  background-size: 1px 100%;
+  background-position: 100% 0;
+}
+
+.cool-border-vertical-top-right-orange::after {
+  top: 0;
+  height: 25%;
+  width: 1px;
+  background: linear-gradient(#ff8a00,#fff);
+}
+
 .cool-border-vertical-bottom-right-orange {
   background-image: linear-gradient(#fff,#ff8a00);
   border-bottom: 1px solid #ff8a00;
@@ -100,35 +129,6 @@ div.cool-border {
   height: 25%;
   width: 1px;
   background: linear-gradient(#fff,#ff8a00);
-}
-
-.cool-border-vertical-top-right-orange {
-  background-image: linear-gradient(#ff8a00,#fff);
-  border-top: 1px solid #ff8a00;
-  background-size: 1px 100%;
-  background-position: 100% 0;
-}
-
-.cool-border-vertical-top-right-orange::after {
-  top: 0;
-  height: 25%;
-  width: 1px;
-  background: linear-gradient(#ff8a00,#fff);
-}
-
-.cool-border-vertical-top-left-orange {
-  background-image: linear-gradient(#ff8a00,#fff);
-  border-top: 1px solid #ff8a00;
-  background-size: 1px 100%;
-  background-position: 0 0;
-}
-
-.cool-border-vertical-top-left-orange::after {
-  top: 0;
-  right: 0;
-  height: 25%;
-  width: 1px;
-  background: linear-gradient(#ff8a00,#fff);
 }
 
 .cool-boder-corner {
@@ -159,15 +159,6 @@ div.cool-border {
   background: linear-gradient(#ff8a00,#fff);
 }
 
-.cool-border-bottom-left-corner {
-  background-image: linear-gradient(90deg,#ff8a00,#fff);
-  background-position: 0 100%;
-}
-
-.cool-border-bottom-left-corner::after {
-  background: linear-gradient(#fff,#ff8a00);
-}
-
 .cool-border-bottom-right-corner {
   background-image: linear-gradient(270deg,#ff8a00,#fff);
   background-position: 0 100%;
@@ -175,5 +166,14 @@ div.cool-border {
 
 .cool-border-bottom-right-corner::after {
   right: 0;
+  background: linear-gradient(#fff,#ff8a00);
+}
+
+.cool-border-bottom-left-corner {
+  background-image: linear-gradient(90deg,#ff8a00,#fff);
+  background-position: 0 100%;
+}
+
+.cool-border-bottom-left-corner::after {
   background: linear-gradient(#fff,#ff8a00);
 }
