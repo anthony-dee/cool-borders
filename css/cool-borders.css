@@ -1,0 +1,197 @@
+:root {
+  --primary-color: #ff8a00;
+  --secondardy-color: #fff;
+  --border-width: 4px;
+}
+
+div.cool-border {
+  height: 100px;
+  width: 400px;
+  padding: 0.4em;
+}
+
+.cool-border {
+  margin: 2em;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.cool-border::after {
+  content: "";
+  position: absolute;
+}
+
+.cool-border-h-top-left {
+  background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
+  border-left: var(--border-width) solid var(--primary-color);
+  background-size: 100% var(--border-width);
+}
+
+.cool-border-h-top-left::after {
+  bottom: 0;
+  left: 0;
+  height: var(--border-width);
+  width: 25%;
+  background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
+}
+
+.cool-border-h-top-right {
+  background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
+  border-right: var(--border-width) solid var(--primary-color);
+  background-size: 100% var(--border-width);
+}
+
+.cool-border-h-top-right::after {
+  bottom: 0;
+  right: 0;
+  height: var(--border-width);
+  width: 25%;
+  background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
+}
+
+.cool-border-h-bottom-right {
+  background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
+  border-right: var(--border-width) solid var(--primary-color);
+  background-size: 100% var(--border-width);
+  background-position: 100% 100%;
+}
+
+.cool-border-h-bottom-right::after {
+  top: 0;
+  right: 0;
+  height: var(--border-width);
+  width: 25%;
+  background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
+}
+
+.cool-border-h-bottom-left {
+  background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
+  border-left: var(--border-width) solid var(--primary-color);
+  background-size: 100% var(--border-width);
+  background-position: 0 100%;
+}
+
+.cool-border-h-bottom-left::after {
+  top: 0;
+  left: 0;
+  height: var(--border-width);
+  width: 25%;
+  background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
+}
+
+.cool-border-v-top-left {
+  background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
+  border-top: var(--border-width) solid var(--primary-color);
+  background-size: var(--border-width) 100%;
+  background-position: 0 0;
+}
+
+.cool-border-v-top-left::after {
+  top: 0;
+  right: 0;
+  height: 25%;
+  width: var(--border-width);
+  background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
+}
+
+.cool-border-v-top-right {
+  background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
+  border-top: var(--border-width) solid var(--primary-color);
+  background-size: var(--border-width) 100%;
+  background-position: 100% 0;
+}
+
+.cool-border-v-top-right::after {
+  top: 0;
+  left: 0;
+  height: 25%;
+  width: var(--border-width);
+  background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
+}
+
+.cool-border-v-bottom-right {
+  background-image: linear-gradient(var(--secondardy-color),var(--primary-color));
+  border-bottom: var(--border-width) solid var(--primary-color);
+  background-size: var(--border-width) 100%;
+  background-position: 100% 100%;
+}
+
+.cool-border-v-bottom-right::after {
+  bottom: 0;
+  left: 0;
+  height: 25%;
+  width: var(--border-width);
+  background-image: linear-gradient(var(--secondardy-color),var(--primary-color));
+}
+
+.cool-border-v-bottom-left {
+  background-image: linear-gradient(var(--secondardy-color),var(--primary-color));
+  border-bottom: var(--border-width) solid var(--primary-color);
+  background-size: var(--border-width) 100%;
+  background-position: 0 100%;
+}
+
+.cool-border-v-bottom-left::after {
+  bottom: 0;
+  right: 0;
+  height: 25%;
+  width: var(--border-width);
+  background: linear-gradient(var(--secondardy-color),var(--primary-color));
+}
+
+.cool-border-top-left-corner {
+  background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
+  background-position: 0 0;
+  background-size: 100% var(--border-width);
+}
+
+.cool-border-top-left-corner::after {
+  top: 0;
+  left: 0;
+  background: linear-gradient(var(--primary-color),var(--secondardy-color));
+  height: 100%;
+  width: var(--border-width);
+}
+
+.cool-border-top-right-corner {
+  background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
+  background-position: 0 0;
+  background-size: 100% var(--border-width);
+}
+
+.cool-border-top-right-corner::after {
+  right: 0;
+  top: 0;
+  background: linear-gradient(var(--primary-color),var(--secondardy-color));
+  height: 100%;
+  width: var(--border-width);
+}
+
+.cool-border-bottom-right-corner {
+  background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
+  background-position: 0 100%;
+  background-size: 100% var(--border-width);
+}
+
+.cool-border-bottom-right-corner::after {
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(var(--secondardy-color),var(--primary-color));
+  height: 100%;
+  width: var(--border-width);
+}
+
+.cool-border-bottom-left-corner {
+  background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
+  background-position: 0 100%;
+  background-size: 100% var(--border-width);
+}
+
+.cool-border-bottom-left-corner::after {
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(var(--secondardy-color),var(--primary-color));
+  height: 100%;
+  width: var(--border-width);
+}
