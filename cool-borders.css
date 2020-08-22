@@ -20,13 +20,13 @@ div.cool-border {
   position: absolute;
 }
 
-.cool-border-h-top-left-orange {
+.cool-border-h-top-left {
   background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
   border-left: 1px solid var(--primary-color);
   background-size: 100% 1px;
 }
 
-.cool-border-h-top-left-orange::after {
+.cool-border-h-top-left::after {
   bottom: 0;
   left: 0;
   height: 1px;
@@ -34,13 +34,13 @@ div.cool-border {
   background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
 }
 
-.cool-border-h-top-right-orange {
+.cool-border-h-top-right {
   background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
   border-right: 1px solid var(--primary-color);
   background-size: 100% 1px;
 }
 
-.cool-border-h-top-right-orange::after {
+.cool-border-h-top-right::after {
   bottom: 0;
   right: 0;
   height: 1px;
@@ -48,14 +48,14 @@ div.cool-border {
   background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
 }
 
-.cool-border-h-bottom-right-orange {
+.cool-border-h-bottom-right {
   background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
   border-right: 1px solid var(--primary-color);
   background-size: 100% 1px;
   background-position: 100% 100%;
 }
 
-.cool-border-h-bottom-right-orange::after {
+.cool-border-h-bottom-right::after {
   top: 0;
   right: 0;
   height: 1px;
@@ -63,7 +63,7 @@ div.cool-border {
   background-image: linear-gradient(90deg,var(--secondardy-color),var(--primary-color));
 }
 
-.cool-border-h-bottom-left-orange {
+.cool-border-h-bottom-left- {
   background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
   border-left: 1px solid var(--primary-color);
   background-size: 100% 1px;
@@ -78,14 +78,14 @@ div.cool-border {
   background-image: linear-gradient(90deg,var(--primary-color),var(--secondardy-color));
 }
 
-.cool-border-v-top-left-orange {
+.cool-border-v-top-left {
   background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
   border-top: 1px solid var(--primary-color);
   background-size: 1px 100%;
   background-position: 0 0;
 }
 
-.cool-border-v-top-left-orange::after {
+.cool-border-v-top-left::after {
   top: 0;
   right: 0;
   height: 25%;
@@ -93,42 +93,42 @@ div.cool-border {
   background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
 }
 
-.cool-border-v-top-right-orange {
+.cool-border-v-top-right {
   background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
   border-top: 1px solid var(--primary-color);
   background-size: 1px 100%;
   background-position: 100% 0;
 }
 
-.cool-border-v-top-right-orange::after {
+.cool-border-v-top-right::after {
   top: 0;
   height: 25%;
   width: 1px;
   background-image: linear-gradient(var(--primary-color),var(--secondardy-color));
 }
 
-.cool-border-v-bottom-right-orange {
+.cool-border-v-bottom-right {
   background-image: linear-gradient(var(--secondardy-color),var(--primary-color));
   border-bottom: 1px solid var(--primary-color);
   background-size: 1px 100%;
   background-position: 100% 100%;
 }
 
-.cool-border-v-bottom-right-orange::after {
+.cool-border-v-bottom-right::after {
   bottom: 0;
   height: 25%;
   width: 1px;
   background-image: linear-gradient(var(--secondardy-color),var(--primary-color));
 }
 
-.cool-border-v-bottom-left-orange {
+.cool-border-v-bottom-left {
   background-image: linear-gradient(var(--secondardy-color),var(--primary-color));
   border-bottom: 1px solid var(--primary-color);
   background-size: 1px 100%;
   background-position: 0 100%;
 }
 
-.cool-border-v-bottom-left-orange::after {
+.cool-border-v-bottom-left::after {
   bottom: 0;
   right: 0;
   height: 25%;
