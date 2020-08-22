@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flex-child, .grid-child {
+  height: 100px;
+  width: 200px;
+  opacity: 0.2;
+}
+
+.flex-child:nth-child(2n+1),
+.grid-child:nth-child(2n+1) {
+  background: red;
+}
+
+.flex-child:nth-child(2n),
+.grid-child:nth-child(2n) {
+  background: blue;
+}
