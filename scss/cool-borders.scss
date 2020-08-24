@@ -1,0 +1,174 @@
+@import "variables";
+
+.cool-border {
+  margin: 2em;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  &::after {
+    content: "";
+    position: absolute;
+  }
+}
+
+.cool-border-h-top-left {
+  background-image: linear-gradient(90deg, $primary-color, $secondary-color);
+  border-left: $border-width solid $primary-color;
+  background-size: 100% $border-width;
+  &::after {
+    bottom: 0;
+    left: 0;
+    height: $border-width;
+    width: 25%;
+    background-image: linear-gradient(90deg, $primary-color, $secondary-color);
+  }
+}
+
+.cool-border-h-top-right {
+  background-image: linear-gradient(90deg, $secondary-color, $primary-color);
+  border-right: $border-width solid $primary-color;
+  background-size: 100% $border-width;
+  &::after {
+    bottom: 0;
+    right: 0;
+    height: $border-width;
+    width: 25%;
+    background-image: linear-gradient(90deg, $secondary-color, $primary-color);
+  }
+}
+
+.cool-border-h-bottom-right {
+  background-image: linear-gradient(90deg, $secondary-color, $primary-color);
+  border-right: $border-width solid $primary-color;
+  background-size: 100% $border-width;
+  background-position: 100% 100%;
+  &::after {
+    top: 0;
+    right: 0;
+    height: $border-width;
+    width: 25%;
+    background-image: linear-gradient(90deg, $secondary-color, $primary-color);
+  }
+}
+
+.cool-border-h-bottom-left {
+  background-image: linear-gradient(90deg, $primary-color, $secondary-color);
+  border-left: $border-width solid $primary-color;
+  background-size: 100% $border-width;
+  background-position: 0 100%;
+  &::after {
+    top: 0;
+    left: 0;
+    height: $border-width;
+    width: 25%;
+    background-image: linear-gradient(90deg, $primary-color, $secondary-color);
+  }
+}
+
+.cool-border-v-top-left {
+  background-image: linear-gradient($primary-color, $secondary-color);
+  border-top: $border-width solid $primary-color;
+  background-size: $border-width 100%;
+  background-position: 0 0;
+  &::after {
+    top: 0;
+    right: 0;
+    height: 25%;
+    width: $border-width;
+    background-image: linear-gradient($primary-color, $secondary-color);
+  }
+}
+
+.cool-border-v-top-right {
+  background-image: linear-gradient($primary-color, $secondary-color);
+  border-top: $border-width solid $primary-color;
+  background-size: $border-width 100%;
+  background-position: 100% 0;
+  &::after {
+    top: 0;
+    left: 0;
+    height: 25%;
+    width: $border-width;
+    background-image: linear-gradient($primary-color, $secondary-color);
+  }
+}
+
+.cool-border-v-bottom-right {
+  background-image: linear-gradient($secondary-color, $primary-color);
+  border-bottom: $border-width solid $primary-color;
+  background-size: $border-width 100%;
+  background-position: 100% 100%;
+  &::after {
+    bottom: 0;
+    left: 0;
+    height: 25%;
+    width: $border-width;
+    background-image: linear-gradient($secondary-color, $primary-color);
+  }
+}
+
+.cool-border-v-bottom-left {
+  background-image: linear-gradient($secondary-color, $primary-color);
+  border-bottom: $border-width solid $primary-color;
+  background-size: $border-width 100%;
+  background-position: 0 100%;
+  &::after {
+    bottom: 0;
+    right: 0;
+    height: 25%;
+    width: $border-width;
+    background: linear-gradient($secondary-color, $primary-color);
+  }
+}
+
+.cool-border-top-left-corner {
+  background-image: linear-gradient(90deg, $primary-color, $secondary-color);
+  background-position: 0 0;
+  background-size: 100% $border-width;
+  &::after {
+    top: 0;
+    left: 0;
+    background: linear-gradient($primary-color, $secondary-color);
+    height: 100%;
+    width: $border-width;
+  }
+}
+
+.cool-border-top-right-corner {
+  background-image: linear-gradient(90deg, $secondary-color, $primary-color);
+  background-position: 0 0;
+  background-size: 100% $border-width;
+  &::after {
+    right: 0;
+    top: 0;
+    background: linear-gradient($primary-color, $secondary-color);
+    height: 100%;
+    width: $border-width;
+  }
+}
+
+.cool-border-bottom-right-corner {
+  background-image: linear-gradient(90deg, $secondary-color, $primary-color);
+  background-position: 0 100%;
+  background-size: 100% $border-width;
+  &::after {
+    right: 0;
+    bottom: 0;
+    background: linear-gradient($secondary-color, $primary-color);
+    height: 100%;
+    width: $border-width;
+  }
+}
+
+.cool-border-bottom-left-corner {
+  background-image: linear-gradient(90deg, $primary-color, $secondary-color);
+  background-position: 0 100%;
+  background-size: 100% $border-width;
+  &::after {
+    bottom: 0;
+    left: 0;
+    background: linear-gradient($secondary-color, $primary-color);
+    height: 100%;
+    width: $border-width;
+  }
+}
