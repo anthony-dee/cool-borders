@@ -28,9 +28,11 @@
   background-image: linear-gradient(90deg, #fff, #ff8a00);
   border-right: 4px solid #ff8a00;
   background-size: 100% 4px;
+  background-position: 1px 0;
 }
 
 .cool-border-h-top-right::after {
+  content: "";
   bottom: 0;
   right: 0;
   height: 4px;
