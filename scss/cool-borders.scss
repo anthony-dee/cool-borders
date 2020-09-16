@@ -1,3 +1,5 @@
+// compressedFilenamePattern: /Users/anthd/cool-borders/$1.min.css, expandedFilenamePattern: /Users/anthd/cool-borders/$1.css
+
 @import "variables";
 
 .cool-border {
@@ -28,7 +30,6 @@
   background-image: linear-gradient(90deg, $secondary-color, $primary-color);
   border-right: $border-width solid $primary-color;
   background-size: 100% $border-width;
-  background-position: 1px 0;
   &::after {
     content: "";
     bottom: 0;
@@ -71,7 +72,6 @@
   background-image: linear-gradient($primary-color, $secondary-color);
   border-top: $border-width solid $primary-color;
   background-size: $border-width 100%;
-  background-position: 0 0;
   &::after {
     top: 0;
     right: 0;
@@ -125,7 +125,6 @@
 
 .cool-border-top-left-corner {
   background-image: linear-gradient(90deg, $primary-color, $secondary-color);
-  background-position: 0 0;
   background-size: 100% $border-width;
   &::after {
     top: 0;
@@ -138,7 +137,6 @@
 
 .cool-border-top-right-corner {
   background-image: linear-gradient(90deg, $secondary-color, $primary-color);
-  background-position: 0 0;
   background-size: 100% $border-width;
   &::after {
     right: 0;

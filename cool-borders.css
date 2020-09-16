@@ -28,7 +28,6 @@
   background-image: linear-gradient(90deg, #fff, #ff8a00);
   border-right: 4px solid #ff8a00;
   background-size: 100% 4px;
-  background-position: 1px 0;
 }
 
 .cool-border-h-top-right::after {
@@ -74,7 +73,6 @@
   background-image: linear-gradient(#ff8a00, #fff);
   border-top: 4px solid #ff8a00;
   background-size: 4px 100%;
-  background-position: 0 0;
 }
 
 .cool-border-v-top-left::after {
@@ -132,7 +130,6 @@
 
 .cool-border-top-left-corner {
   background-image: linear-gradient(90deg, #ff8a00, #fff);
-  background-position: 0 0;
   background-size: 100% 4px;
 }
 
@@ -146,7 +143,6 @@
 
 .cool-border-top-right-corner {
   background-image: linear-gradient(90deg, #fff, #ff8a00);
-  background-position: 0 0;
   background-size: 100% 4px;
 }
 
