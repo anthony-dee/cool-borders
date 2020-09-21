@@ -122,7 +122,7 @@
   }
 }
 
-.cool-border-top-left-corner {
+.cool-border-corner-top-left {
   background-image: linear-gradient(90deg, $primary-color, $secondary-color);
   background-size: 100% $border-width;
   &::after {
@@ -134,7 +134,7 @@
   }
 }
 
-.cool-border-top-right-corner {
+.cool-border-corner-top-right {
   background-image: linear-gradient(90deg, $secondary-color, $primary-color);
   background-size: 100% $border-width;
   &::after {
@@ -146,7 +146,7 @@
   }
 }
 
-.cool-border-bottom-right-corner {
+.cool-border-corner-bottom-right {
   background-image: linear-gradient(90deg, $secondary-color, $primary-color);
   background-position: 0 100%;
   background-size: 100% $border-width;
@@ -159,7 +159,7 @@
   }
 }
 
-.cool-border-bottom-left-corner {
+.cool-border-corner-bottom-left {
   background-image: linear-gradient(90deg, $primary-color, $secondary-color);
   background-position: 0 100%;
   background-size: 100% $border-width;
